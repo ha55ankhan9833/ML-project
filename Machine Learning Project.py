@@ -7,7 +7,7 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
-from sklearn.metrics import accuracy_score, classification_report
+#from sklearn.metrics import accuracy_score, classification_report
 from sklearn.metrics import mean_squared_error, r2_score
 
 data_movies = pd.read_csv(r"C:\Users\Laptop inn\Desktop\Machine Larning project Material\tmdb_5000_movies.csv")
